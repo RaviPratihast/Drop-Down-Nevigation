@@ -34,17 +34,29 @@ body{
     
 }
 
+.nav-links-left{
+    display: flex;
+}
+
+
+/* features-->sub features */
+.sub-features-elements{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* text color in left and right container */
 
 
-.nevigation-left,.nevigation-right,a{
+/* .nevigation-left,.nevigation-right,a{
     color: var(--text-color);
 }
 
-.nevigation-left,.nevigation-right,a:hover{
+.nevigation-left,.nevigation-right,li,a:hover{
     color: var(--heading-color);
-}
+} */
 
 
 .nevigation-left{
